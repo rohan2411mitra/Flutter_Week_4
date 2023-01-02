@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078151439756",
+    "project_id": "movies-34d3d",
+    "storage_bucket": "movies-34d3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078151439756:android:39f0a0cddfeadf083362a9",
+        "android_client_info": {
+          "package_name": "com.example.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078151439756-povi85vm3lvcscb783f7q35olcque448.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG5_iyjYVH66hClNkfK5LRV8rf6yBNyLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078151439756-povi85vm3lvcscb783f7q35olcque448.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
