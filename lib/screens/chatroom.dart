@@ -147,7 +147,7 @@ class _ChatRoomState extends State<ChatRoom> {
                 return MessageTile(
                   message: chats[index].Message,
                   sendByMe: (chats[index].User == username) ? true : false,
-                  time: chats[index].Time,
+                  time: chats[index].Time.substring(0,16)+chats[index].Time.substring(19,22),
                   user: chats[index].User,
                 );
               },
@@ -172,7 +172,7 @@ class _ChatRoomState extends State<ChatRoom> {
   Future createMsg({required String Message}) async {
     final docref = FirebaseFirestore.instance.collection(chatrooms[curindex]).doc();
     final now = DateTime.now();
-    String formatter = DateFormat('dd/MM/yyyy hh:mm a').format(now);
+    String formatter = DateFormat('dd/MM/yyyy hh:mm:ss a').format(now);
     final chat = Chat(
       Message: Message,
       User: username,
